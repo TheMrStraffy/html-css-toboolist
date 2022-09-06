@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(246, 248, 249);
+}
+/* header */
+
+header{
+  margin: 20px;
+  display: block;
+}
+
+header img{
+  width: 50px;
+  
+  vertical-align: middle;
+}
+header span{
+  
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* /header */
+
+/* main */
+
+
+main.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px 0px;
+}
+
+.menu{
+  padding: 20px;
+  border-bottom: 2px solid rgb(246, 248, 249);
+}
+
+.add-task{
+  background-color: rgb(71, 173, 241);
+  padding: 8px 10px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.add-section{
+  padding: 6px 8px;
+  color: rgb(185, 185, 185);
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+p {
+  font-size: 18px;
+  color: rgb(54, 58, 68);
+  font-weight: 500;
+}
+
+p.arrow{
+  font-size: 22px;
+  font-weight: 800;
+  color: rgb(54, 58, 68);
+}
+
+
+/* /main */
+
+/* spaces */
+.new-task, .today, .upcoming{
+  padding: 20px 20px;
+  margin: 20px 0;
+}
+
+p{
+  padding-top: 20px;
+}
+
+
+
+/* /spaces */
+
+
+/* check&cross&arrow */
+p.arrow::before{
+  content: "\25BC";
+  font-size: 16px;
+  margin-right: 4px;
+  
+}
+
+p.cross::before{
+  content: "\2573";
+  font-size: 8px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+p.checked::before{
+  content: "\2714";
+  font-size: 8px;
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+/* /check&cross&arrow */
+
+/*  btns */
+
+.btn {
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 7px;
+  margin-left: 5px;
+}
+
+.span-box-editorial{
+  background-color: rgb(69, 171, 234);
+}
+
+.span-box-goal{
+  background-color: rgb(156, 114, 228);
+}
+
+.span-box-recruiting{
+  background-color: rgb(100, 192, 169);
+}
+
+.span-box-mobile{
+  background-color: rgb(242, 158, 51);
+}
+
+.span-box-website{
+  background-color: rgb(216, 99, 161);
+}
+
+.span-box-sales{
+  background-color: rgb(176, 201, 38)
+  ;
+}
+
+/* / btns */
